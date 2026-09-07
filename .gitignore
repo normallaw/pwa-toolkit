@@ -1,0 +1,21 @@
+# Secrets
+.env
+
+# The contract itself. Source PDFs and everything derived from them are not
+# ours to redistribute — see "A note on the documents" in README.md.
+data/*
+!data/README.md
+
+# Personal
+pilot_profile.md
+
+# Python
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+*.egg-info/
+build/
+dist/
+.pytest_cache/
+.ruff_cache/
